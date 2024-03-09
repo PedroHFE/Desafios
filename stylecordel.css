@@ -16,22 +16,36 @@ header{
 h1{
     margin: 1px;
     font-family: 'Passion One';
-    font-size: 10vh;
+    font-size: 6vw;
+    font-variant: small-caps;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
 }
 .versos{
     text-align: left;
-    font-size: 5vh;
+    font-size: 3.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 40px;
 }
 #v1{
     background-color: white;
     color: black;
 }
 p#v2i{
-    background-color: rgba(0, 0, 0, 0.315);
-    color: white;
-    width: 200px;
-    padding-left: 5px;
-    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 50vw;
+    padding-left: 25px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0px black;
 }
 #position1{
     position: relative;
@@ -40,32 +54,45 @@ p#v2i{
     position: relative;
 }
 #img1{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.315);
+    color: white;
+    padding-left: 30px;
+    margin: 20px;
     background-image: url(cordel/background001.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 0px 8px 5px inset rgba(0, 0, 0, 0.185);
+    box-shadow: 6px 6px 8px 0px inset rgba(0, 0, 0, 0.385);
 }
 #v3{
     background-color: white;
     color: black;
 }
 #v4i{
+    border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.315);
     color: white;
-    width: 200px;
-    padding-left: 5px;
+    width: 50vw;
+    padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
 #img2{
+    padding: 30px;
     background-image: url(cordel/background002.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: 0px 8px 5px inset rgba(0, 0, 0, 0.185);
+    box-shadow: 6px 6px 8px 5px inset rgba(0, 0, 0, 0.185);
 }
 #v5{
     background-color: white;
     color: black;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
