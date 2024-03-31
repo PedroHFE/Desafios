@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* cores principais
+Vermelho #DC3D12
+Azul #3F78D9
+Verde #AFD93F
+cores secundarias
+#5C4845
+#474E59
+#788452
+*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    --varcor1: #DC3D12;
+    --varcor2: #008dbd;
+    --varcor3: #AFD93F;
+    --varcor1-1: #5C4845;
+    --varcor2-1: #474E59;
+    --varcor3-1: #788452;
+}
+body{
+    height: 97vh;
+    width: 97vw;
+    background-color: var(--varcor2);
+    /*background-image: linear-gradient(180deg, var(--varcor2), var(--varcor3));*/
+}
+main{
+    position: relative;
+}
+section{
+    width: 50vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 15%);
+}
+div{
+    width: 53.5vw;
+    height: 30vh;
+    background-color: var(--varcor1);
+    background-image: url(../img/paisagem.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    border-radius: 5px 5px 0px 0px;
+}
+form{
+    background-color: white;
+    width: 52vw;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 6px;
+    padding-bottom: 5px;
+}
+h1{
+    margin: 0px;
+    text-align: center;
+}
+p{
+    margin: 5px;
+}
+#imail{
+    margin: 1px;
+    border-radius: 10px;
+}
+#isenha{
+    border-radius: 10px;
+    margin: 3px;
+}
+#enter{
+    margin: 1px;
+    border-radius: 5px;
+    width: 50vw;
+    color: white;
+    background-color: var(--varcor2-1);
+}
+#enter:hover{
+    background-color: var(--varcor2);
+}
+#ems{
+    margin: 1px;
+    border-radius: 5px;
+    width: 50vw;
+}
+#ems:hover{
+    background-color: var(--varcor3);
+}
+label{
+    background-color: var(--varcor2);
+    display: block;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+}
+span.material-symbols-outlined{
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 25
+}
