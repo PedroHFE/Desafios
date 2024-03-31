@@ -22,33 +22,37 @@ body{
     height: 97vh;
     width: 97vw;
     background-color: var(--varcor2);
-    /*background-image: linear-gradient(180deg, var(--varcor2), var(--varcor3));*/
 }
 main{
     position: relative;
 }
 section{
-    width: 50vw;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 15%);
+    width: 350px;
+    display: block;
+    margin: auto;
+    margin-top: 20%;
 }
 div{
-    width: 53.5vw;
-    height: 30vh;
     background-color: var(--varcor1);
     background-image: url(../img/paisagem.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    border-radius: 5px 5px 0px 0px;
+    display: block;
+    width: 304px;
+    height: 170px;
+    border-radius: 10px 10px 0px 0px;
 }
-form{
-    background-color: white;
-    width: 52vw;
-    border-radius: 0px 0px 5px 5px;
-    padding-left: 6px;
+form{    
+    display: block;
+    width: 344px;
+    height: 191px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -8px;
+    margin-top: 5px;
+    padding-left: 4px;
     padding-bottom: 5px;
+    background-color: white;
 }
 h1{
     margin: 0px;
@@ -60,10 +64,12 @@ p{
 #imail{
     margin: 1px;
     border-radius: 10px;
+    width: 41vw;
 }
 #isenha{
     border-radius: 10px;
     margin: 3px;
+    width: 41vw;
 }
 #enter{
     margin: 1px;
